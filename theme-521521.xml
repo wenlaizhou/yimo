@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="521521" name="Visual Studio" modified="2011-12-29 11:57:24" author="wenlai zhou">
+    <searchResultIndication color="#464467" />
+    <filteredSearchResultIndication color="#3F3F6A" />
+    <occurrenceIndication color="#616161" />
+    <writeOccurrenceIndication color="#948567" />
+    <findScope color="#BCADAD" />
+    <sourceHoverBackground color="#A19879" />
+    <!--<singleLineComment color="#ACC1AC" />-->
+    <singleLineComment color="#B4EEB4" />
+    <multiLineComment color="#B4EEB4" />
+    <commentTaskTag color="#73879B" />
+    <!--<javadoc color="#B3B5AF" />-->
+    <javadoc color="#CCCCCC" />
+    <javadocLink color="#CCCCCC" underline="true" />
+    <javadocTag color="#9393CC" />
+    <javadocKeyword color="#E0FFFF" />
+    <!-- <class color="#FFFF80" /> -->
+    <class color="#FFF68F" />
+    <!--<interface color="#CAE682" />-->
+    <interface color="#E0FFFF" italic="true" />
+    <abstractClass color="#FFF68F" italic="true" />
+    <method color="#F0FFF0" />
+    <methodDeclaration color="#F0FFF0" bold="true" />
+    <bracket color="#FFFFFF" />
+    <number color="#B1CCA4" italic="false" bold="true" underline="false" strikethrough="false" />
+    <string color="#CE9178" />
+    <operator color="#F0EFD0" />
+    <keyword color="#87CEFF" />
+    <keywordReturn color="#87CEFF" bold="true" />
+    <annotation color="#B5B5B5" />
+    <staticMethod color="#F0FFF0" bold="true" italic="true" />
+    <localVariable color="#FFFFFF" />
+    <localVariableDeclaration color="#FFFFFF" />
+    <field color="#B3B784" />
+    <staticField color="#93A2CC" />
+    <staticFinalField color="#FFFFFF" bold="true" italic="true" />
+    <deprecatedMember strikethrough="true" color="#FFFFFF" />
+    <background color="#3C3C3C" />
+    <currentLine color="#505050" />
+    <foreground color="#E2E2E2" />
+    <lineNumber color="#C0C0C0" />
+    <selectionBackground color="#364656" />
+    <selectionForeground color="#FFFFFF" />
+</colorTheme>
