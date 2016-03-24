@@ -154,6 +154,6 @@ create table message (
     status tinyint default 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8, comment '';
 
-create index message_index on follow(id, to_id, status) comment '';
+create index message_index on message(id, to_id, status) comment '';
 ```
 
