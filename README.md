@@ -90,7 +90,7 @@ create table help (
     status tinyint default 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8, comment '';
 
-create index help_index on help(id, name, group_id, group_name, status) comment '';
+create index help_index on help(id, name, group_id, status) comment '';
 
 create table help_order (
     id varchar(36) primary key,
