@@ -62,6 +62,17 @@ create table group_type_ref (
 
 create index group_type_ref_index on group_type_ref(id, group_name, group_type_name, group_type_id) comment '';
 
+create table group_users (
+    id varchar(36) primary key,
+    group_id varchar(36) not null,
+    user_id varchar(36) not null,
+    create_at datetime default now(),
+    update_at datetime default now(),
+    status tinyint default 1
+) ENGINE=InnoDB DEFAULT CHARSET=utf8, comment '';
+
+create index group_users_index on group_users(group_id, user_id) comment '';
+
 create table help (
     id varchar(36) primary key,
     name nvarchar(32),
